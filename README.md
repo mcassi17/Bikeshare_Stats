@@ -1,6 +1,9 @@
 ## Statistical Inference: Capital Bikeshare Ride Time Prediction
 The Capital Bikeshare Ride Time Prediction project looks to predict the ride time between two stations depending on different factors like weather conditions, day of the week, season, or holidays. The purpose of the analysis is to determine if the differences in ride times found in the visual exploratory data analysis are truly found in the data or if they just happened by chance.
 
+## Files included in this Repo
+This repository contains the iPython Notebook with all of the statistical analysis completed for the dataset. It also contains two zip files containing the dataset. There are two datasets because it was too large to fit in one file.
+
 ## Central Limit Theorem
 The Central Limit Theorem (CLT) is the main piece needed to conduct the statistical analysis in the report. The CLT states that the distribution of xbar (the sample mean), or a point estimate (like a proportion or correlation coefficient, is approximately normal under certain conditions, listed below:
 Independence
