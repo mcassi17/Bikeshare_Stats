@@ -20,7 +20,7 @@ For the tests done in this analysis, a random sample of 100,000 rows from the 1.
 In this analysis, the normal distribution is used for the tests. However, instead of using the z-distribution, the t-distribution is used because the standard deviation of ride time for the entire population is not known. The tests used in this analysis include t-tests for differences in means, 95% confidence intervals for differences in means, and Analysis of Variance (ANOVA) to test differences in means for more than two means.
 <br>
 <br>
-In most cases, the significance level (alpha) was 0.05 but for t-tests used after an ANOVA test, the alpha is lowered using the formula k(k - 1) / 2, where k is the number of groups.
+In most cases, the significance level (alpha) was 0.05 but for t-tests used after an ANOVA test, the alpha is lowered using the formula alpha / c where c = k(k - 1) / 2, where k is the number of groups.
 
 ## Conclusions from Tests
 After some visual exploratory analysis, the difference in ride times differed greatly between registered and casual riders (13.71 minutes differences). A t-test was used to determine if this was by chance or if there actually is a difference in the mean ride times between the two sets of riders. Based on the test results, the mean ride times between the groups were different and . This result is a key finding and was used throughout the analysis.
